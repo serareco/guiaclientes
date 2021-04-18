@@ -1,15 +1,16 @@
 <template>
-  <div id="app">
-    <h1>Guia Clientes</h1>
-    <Cliente/>
+  <div class="container"  id="app">
+    <div class="row">
+      <Task/>
+    </div>
   </div>
 </template>
 
 <script>
-import Cliente from './components/Cliente'
+import Task from './components/Task'
 export default {
   name: 'App',components:{
-    Cliente
+    Task
   }
 }
 </script>
